@@ -1,0 +1,53 @@
+.uploaded-documents-wrapper {
+  margin-top: 2rem;
+}
+
+.uploaded-documents-header {
+  display: flex;
+  align-items: center;
+
+  & p {
+    padding-left: 5rem;
+    color: var(--primary-color);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+  }
+}
+
+.file-name,
+.file-number-title {
+  width: 50%;
+}
+
+.file-date,
+.file-number-date {
+  width: 30%;
+}
+
+.file-number-volume {
+  width: 20%;
+}
+
+.uploaded-documents-container {
+  margin-top: .5rem;
+}
+
+.uploaded-document {
+  width: 100%;
+  height: 2.85rem;
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  border-radius: .7rem;
+  margin-bottom: .5rem;
+  color: var(--primary-color);
+  font-size: var(--font-size-x);
+  box-shadow: var(--shadow-secondary);
+  border: 1px solid var(--primary-color);
+  background-color: var(--background-secondary-color);
+}
+
+.file-number {
+  width: 5%;
+  margin-left: .5rem;
+}

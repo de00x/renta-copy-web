@@ -1,0 +1,29 @@
+.header-left-block-container {
+  display: flex;
+  align-items: center;
+  width: 33.3%;
+
+  & .header-text {
+    margin-left: 1rem;
+  }
+}
+
+.header-text, {
+  display: flex;
+  align-items: center;
+  transition: .2s color ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--primary-color-hover);
+  }
+}
+
+.header-text {
+  & svg {
+    width: 10px;
+    height: 10px;
+    margin-right: .25rem;
+    fill: var(--background-secondary-color);
+  }
+}

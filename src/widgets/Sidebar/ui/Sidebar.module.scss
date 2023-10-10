@@ -1,0 +1,10 @@
+.sidebar-wrapper {
+  left: 0;
+  bottom: 0;
+  top: 7.14rem;
+  width: 8.5rem;
+  position: fixed;
+  height: calc(100vh - 7.14rem);
+  box-shadow: var(--shadow-secondary);
+  background-color: var(--background-secondary-color);
+}

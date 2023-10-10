@@ -1,0 +1,64 @@
+.modal-additional-styles {
+  border-radius: var(--border-radius-m);
+}
+
+.filter-by-modal-wrapper {
+  width: 33.2rem;
+  min-height: 25rem;
+  padding: 2rem 0;
+}
+
+.filter-by-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.filter-by-form-wrapper {
+  margin: 2rem 0 !important;
+}
+
+.current-filtered-item {
+  display: flex;
+  padding: 0 5rem;
+  align-items: center;
+  justify-content: space-between;
+
+  & p {
+    color: var(--primary-color);
+    font-size: var(--font-size-x);
+    font-weight: var(--font-weight-medium);
+  }
+
+  &:nth-child(1),
+  &:nth-child(2) {
+    margin-bottom: 1rem;
+  }
+}
+
+.filter-by-button-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  min-height: 7rem;
+
+  & button {
+    width: 13.57rem;
+    height: 2.85rem;
+    font-size: var(--font-size-x);
+    border-radius: var(--border-radius-s);
+    font-weight: var(--font-weight-medium);
+  }
+
+  & button:nth-child(1) {
+    margin-top: auto;
+  }
+
+  & button:nth-child(2) {
+    margin-top: 1rem;
+  }
+}

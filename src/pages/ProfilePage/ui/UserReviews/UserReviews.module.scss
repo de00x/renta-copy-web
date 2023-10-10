@@ -1,0 +1,107 @@
+.user-reviews-wrapper {
+  margin-top: 3rem;
+}
+
+.user-reviews-btn-to-open-container {
+  display: flex;
+  align-items: center;
+  width: 30.21rem;
+  height: 3.5rem;
+  padding: 0 1rem;
+  border-top-left-radius: var(--border-radius-s);
+  border-top-right-radius: var(--border-radius-s);
+  background-color: var(--background-secondary-color);
+
+  & p {
+    color: var(--primary-color);
+    font-size: var(--font-size-x);
+    font-weight: var(--font-weight-medium);
+
+    &:nth-child(1) {
+      margin-right: .5rem;
+    }
+  }
+}
+
+.user-reviews-star-svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 1.5rem;
+  fill: var(--background-primary-color);
+}
+
+.user-reviews-btn {
+  cursor: pointer;
+  margin-left: auto;
+  transform: rotate(90deg);
+}
+
+.user-reviews-btn-active {
+  transform: rotate(-90deg);
+}
+
+.user-reviews-container {
+  box-shadow: var(--shadow-secondary);
+  border-radius: var(--border-radius-s);
+  border-top-left-radius: 0;
+  padding: .5rem 1rem;
+  background-color: var(--background-secondary-color);
+}
+
+.user-review {
+  margin: 2rem 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.user-review-name {
+  font-size: var(--font-size-x);
+  color: var(--reviewer-name-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.user-review-text-container {
+  padding: .5rem 1rem;
+  margin-top: 1rem;
+  min-height: 6rem;
+  box-shadow: var(--shadow-secondary);
+  border-radius: var(--border-radius-b);
+}
+
+.user-review-stars {
+  width: 20px;
+  height: 20px;
+
+  &:not(:last-child) {
+    margin-right: .5rem;
+  }
+}
+
+.user-review-stars-active-1:nth-child(-n + 1) {
+  fill: var(--background-primary-color);
+}
+
+.user-review-stars-active-2:nth-child(-n + 2) {
+  fill: var(--background-primary-color);
+}
+
+.user-review-stars-active-3:nth-child(-n + 3) {
+  fill: var(--background-primary-color);
+}
+
+.user-review-stars-active-4:nth-child(-n + 4) {
+  fill: var(--background-primary-color);
+}
+
+.user-review-stars-active-5:nth-child(-n + 5) {
+  fill: var(--background-primary-color);
+}
+
+.user-review-text {
+  margin-top: .5rem;
+  color: var(--primary-color);
+  font-size: var(--font-size-x);
+  font-weight: var(--font-weight-medium);
+}

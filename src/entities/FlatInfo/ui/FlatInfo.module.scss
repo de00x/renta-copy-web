@@ -1,0 +1,44 @@
+.headerInformation {
+    display: flex;
+    flex-direction: column;
+}
+
+.address {
+    font-weight: 500;
+    font-size: var(--font-size-x);
+}
+
+.rooms {
+    font-weight: 600;
+    font-size: var(--font-size-xxl);
+}
+
+@media only screen and (max-width: 1024px) {
+    .rooms {
+        font-size: 16px;
+    }
+
+    .address {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .rooms {
+        font-size: var(--font-size-m);
+    }
+
+    .address {
+        font-size: var(--font-size-m);
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .rooms {
+        font-size: 12px !important;
+    }
+
+    .address {
+        font-size: 12px !important;
+    }
+}

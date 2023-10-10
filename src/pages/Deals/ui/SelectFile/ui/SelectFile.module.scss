@@ -1,0 +1,25 @@
+.item {
+    color: var(--primary-color);
+    font-size: 12px;
+    //width: 100%;
+    padding: 9px;
+}
+
+.item:hover {
+    outline: 1px solid #29648a;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.itemDifferentStyle {
+    margin-top: 29px;
+}
+
+.textOption {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 33px;
+}

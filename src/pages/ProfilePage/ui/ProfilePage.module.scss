@@ -1,0 +1,306 @@
+.ProfilePage {
+  gap: 1.42rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  width: 17.14rem;
+  height: 17.14rem;
+  border-radius: var(--border-radius-b);
+}
+
+.ratingBlock {
+  bottom: 1rem;
+  left: 12.85rem;
+}
+
+.newStart {
+  width: 2.14rem;
+  height: 2.14rem;
+}
+
+.newStartSmall {
+  width: 1.42rem;
+  height: 1.42rem;
+}
+
+.newText {
+  font-size: 1.07rem;
+}
+
+.user {
+  display: flex;
+}
+
+.personalData {
+  display: flex;
+  gap: .7rem;
+  width: 100%;
+  margin-left: 1.42rem;
+  flex-direction: column;
+}
+
+.role {
+  margin-bottom: .7rem;
+  font-size: var(--font-size-m);
+}
+
+.description {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.header {
+  margin-right: .28rem;
+  font-size: var(--font-size-x);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.review {
+  margin-right: .28rem;
+  font-size: var(--font-size-x);
+}
+
+.sectionName {
+  width: 30rem;
+  display: flex;
+  align-items: center;
+  border-radius: .7rem;
+  padding: .7rem 1.07rem;
+  justify-content: space-between;
+  background: var(--secondary-color);
+  box-shadow: 0 .7rem 1.42rem rgb(0 0 0 / 15%);
+}
+
+.sectionNameActive {
+  border-radius: .7rem .7rem 0 0;
+}
+
+.sectionName:hover {
+  cursor: pointer;
+}
+
+.sectionNameActive:hover {
+  cursor: pointer;
+}
+
+.feedback {
+  overflow: auto;
+  height: 17.85rem;
+  margin-top: -1.42rem;
+  border-radius: 0 .7rem .7rem;
+  padding: 1.07rem 1.64rem 1.78rem;
+  background: var(--secondary-color);
+}
+
+.hasScroll {
+  height: auto;
+  margin-top: -1.42rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.age {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.phone {
+  display: flex;
+  max-width: 50rem;
+  margin-bottom: .7rem;
+  justify-content: space-between;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+  max-width: 700px;
+}
+
+.info {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.img {
+  width: 14.28rem;
+  height: 14.28rem;
+  border-radius: 1.42rem;
+}
+
+.rating {
+  left: 10.85rem;
+  bottom: 1.14rem;
+  position: absolute;
+}
+
+.switchRoles {
+  display: flex;
+  width: 30.35rem;
+  border-radius: .7rem;
+  padding: .7rem 1.78rem;
+  justify-content: space-between;
+  box-shadow: var(--shadow-secondary);
+  background: var(--background-secondary-color);
+}
+
+.btn {
+  height: 2.85rem;
+  padding: 0 1.7rem;
+  width: fit-content;
+  border-radius: .7rem;
+  color: var(--primary-color);
+  font-size: var(--font-size-x);
+  background: var(--secondary-color);
+  font-weight: var(--font-weight-semi-bold);
+
+  &:hover {
+    outline: 1px solid var(--primary-color);
+  }
+
+  &:active {
+    color: var(--secondary-color);
+    background: var(--background-primary-color);
+  }
+}
+
+.btnActive {
+  outline: 1px solid var(--primary-color);
+}
+
+.switch {
+  right: 0;
+  top: 1.42rem;
+  display: flex;
+  width: 3.92rem;
+  height: 3.64rem;
+  position: absolute;
+  align-items: center;
+  border-radius: 1.07rem;
+  justify-content: center;
+}
+
+.accordion {
+  margin-bottom: 1.78rem;
+}
+
+.arrow {
+  width: .64rem;
+  height: 1.28rem;
+  transform: rotate(90deg);
+}
+
+.arrowDown {
+  transform: rotate(270deg);
+}
+
+.select {
+  width: 30rem;
+}
+
+@media only screen and (max-width: 810px) {
+  .phone {
+    width: 100%;
+  }
+
+  .email {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 890px) {
+  .profile {
+    width: 12.14rem;
+    height: 12.14rem;
+  }
+
+  .ratingBlock {
+    left: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .phone {
+    width: 100%;
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .personalData {
+    margin-left: 1.07rem;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .user {
+    gap: 1.42rem;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .role {
+    text-align: center;
+  }
+
+  .age {
+    text-align: center;
+  }
+
+  .profile {
+    width: 8.57rem;
+    height: 8.57rem;
+  }
+
+  .ratingBlock {
+    left: 4.64rem;
+    top: 5.35rem;
+  }
+
+  .personalData {
+    margin: 0 0 1.42rem 0;
+  }
+
+  .select {
+    width: 100%;
+  }
+
+  .sectionName {
+    width: 100%;
+  }
+
+  .switchRoles {
+    width: auto;
+  }
+
+  .feedback {
+    border-radius: 0 0 .7rem .7rem;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .switchRoles {
+    padding: .7rem;
+  }
+
+  .btn {
+    padding: 0 .7rem;
+  }
+}

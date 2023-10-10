@@ -1,0 +1,12 @@
+.header-middle-block-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-title-text-mobile {
+  font-size: var(--font-size-xxxl);
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-extra-bold);
+}

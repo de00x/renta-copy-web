@@ -1,0 +1,33 @@
+* {
+  font-family: var(--font-family-main);
+}
+
+.center {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name {
+  color: var(--primary-color);
+  font-family: var(--font-family-secondary);
+  font-size: 2.85rem;
+  margin-bottom: 1.42rem;
+}
+
+.subscribe {
+  color: var(--primary-color);
+  font-family: var(--font-family-main);
+  margin-bottom: 4.85rem;
+  font-weight: 600;
+  font-size: 2.85rem;
+  text-align: center;
+}
+
+.mainButton {
+  width: 21.42rem;
+  height: 2.85rem;
+  font-weight: 600;
+  font-size: 1.42rem;
+}

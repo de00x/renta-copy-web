@@ -1,0 +1,54 @@
+.form {
+  margin: 31px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1326px;
+  height: 514px;
+  background: var(--secondary-color);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 40px;
+}
+
+.header {
+  margin-top: 46px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--primary-color);
+}
+
+.searchInput {
+  margin-top: 42px;
+  padding: 12px 12px 12px 20px;
+  width: 504px;
+  height: 60px;
+}
+
+.citiesWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 61px;
+  width: 1147px;
+}
+
+.citieBtn {
+  width: fit-content;
+  max-width: 25%;
+  padding: 0 24px;
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: var(--font-size-xl);
+  color: var(--primary-color);
+}
+
+.cityChooseBtn {
+  width: 420px;
+  height: 50px;
+  margin-top: 100px;
+  font-weight: 500;
+  font-size: var(--font-size-xl);
+}

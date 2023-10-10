@@ -1,0 +1,20 @@
+.footer-forgot-pass-link-text,
+.footer-register-link-text {
+  margin-top: 1rem;
+
+  & span {
+    color: var(--third-color);
+    font-size: var(--font-size-x);
+    font-weight: var(--font-weight-medium);
+    transition: .2s color ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      color: #7c7c7c;
+    }
+  }
+}
+
+.footer-register-link-text {
+  margin-top: 0;
+}

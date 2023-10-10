@@ -1,0 +1,45 @@
+* {
+    font-family: Montserrat;
+}
+
+.driver {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px 29px;
+    width: 400px;
+    height: 377px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.descrWrapper {
+    margin: 21px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleBold {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #29648a;
+}
+
+.titleBold span {
+    font-weight: 500;
+    margin-left: 18px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #29648a;
+    margin-top: 3px;
+}
+
+.content {
+    display: flex;
+    //min-height: calc(100vh - 95px);
+}

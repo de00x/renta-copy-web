@@ -1,0 +1,116 @@
+.Button {
+  height: 2.85rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.14rem;
+  border-radius: 1.42rem;
+  font-family: var(--font-family-main);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.basic {
+  color: var(--secondary-color) !important;
+  background: var(--background-primary-color) !important;
+
+  &:hover {
+    color: var(--secondary-color) !important;
+    box-shadow: var(--shadow-secondary) !important;
+    background: var(--background-primary-color) !important;
+  }
+
+  &:active {
+    color: var(--primary-color) !important;
+    background: var(--background-secondary-color) !important;
+  }
+}
+
+.clear {
+  outline: none !important;
+  color: var(--primary-color) !important;
+  box-shadow: var(--shadow-primary) !important;
+  background: var(--background-secondary-color) !important;
+
+  &:hover {
+    color: var(--primary-color) !important;
+    box-shadow: var(--shadow-secondary) !important;
+  }
+
+  &:focus {
+    color: var(--secondary-color) !important;
+    background: var(--background-primary-color) !important;
+  }
+}
+
+.link {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: var(--third-color);
+  font-weight: var(--font-weight-medium);
+}
+
+.big {
+  width: 100%;
+  height: 2.85rem;
+  border-radius: var(--border-radius-s);
+
+  &:hover {
+    color: var(--secondary-color);
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-secondary);
+    background: var(--background-primary-color);
+  }
+
+  &:focus {
+    color: var(--secondary-color);
+    background: var(--background-primary-color);
+  }
+}
+
+.middle {
+  width: 100%;
+  height: 3.57rem;
+  border-radius: var(--border-radius-s);
+
+  &:hover {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-secondary);
+    background-color: var(--background-primary-color);
+  }
+
+  &:focus {
+    color: var(--primary-color);
+    box-shadow: var(--shadow-secondary);
+    background: var(--background-secondary-color);
+  }
+
+  &:active {
+    color: var(--primary-color);
+    box-shadow: var(--shadow-secondary);
+    background: var(--background-secondary-color);
+  }
+
+}
+
+
+.detail {
+  color: var(--primary-color);
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.disabled {
+  background: none !important;
+  box-shadow: none !important;
+  color: var(--third-color) !important;
+
+  &:hover {
+    cursor: default !important;
+    background: none !important;
+    box-shadow: none !important;
+    color: var(--third-color) !important;
+  }
+}

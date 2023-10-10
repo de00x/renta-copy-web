@@ -1,0 +1,40 @@
+.ConfirmationForm {
+    padding: 30px 140px;
+}
+
+.title {
+    margin-bottom: 90px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.button {
+    width: 155px;
+    height: 51px;
+    border-radius: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .ConfirmationForm {
+        padding: 30px 100px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .ConfirmationForm {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .button {
+        width: 100px;
+        height: 30px;
+    }
+}

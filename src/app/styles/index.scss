@@ -1,0 +1,92 @@
+@import "./normalize";
+@import "./normalize-antd";
+@import "./normalize-reactDataPicker";
+@import "./vars";
+@import "antd/dist/antd.css";
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/thumbs';
+@import "react-datepicker/dist/react-datepicker.css";
+
+@font-face {
+  font-family: Montserrat;
+  src: local("Montserrat"), url(../../assets/fonts/Montserrat.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: Nunito-Black;
+  src: local("Nunito-Black"), url(../../assets/fonts/Nunito-Black.ttf) format("truetype");
+}
+
+html {
+  font-size: 14px;
+
+  /* Убирает стрелки в элементе input с типом number */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: url(../../assets/background.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 30px 105px;
+  width: 50%;
+  margin-left: 100px;
+}
+
+* {
+  &::-webkit-scrollbar {
+    width: 6px; /* ширина scrollbar */
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent; /* цвет дорожки */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: lightgray; /* цвет плашки */
+    border-radius: 20px; /* закругления плашки */
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .page-wrapper {
+    padding: 30px 50px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .page-wrapper {
+    padding: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-wrapper {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .page-wrapper {
+    padding: 30px 100px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .page-wrapper {
+    padding: 15px !important;
+  }
+}

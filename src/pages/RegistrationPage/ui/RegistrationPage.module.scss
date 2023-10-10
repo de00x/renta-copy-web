@@ -1,0 +1,75 @@
+.date-picker {
+  border-radius: .7rem;
+
+  & input {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+  }
+
+  & input[aria-invalid="true"] {
+    border-color: #ff4d4f;
+    background: var(--background-secondary-color);
+  }
+}
+
+.account-exists-text {
+  margin-top: 1rem;
+  color: var(--third-color);
+  font-size: var(--font-size-x);
+  transition: .2s color ease-in-out;
+  font-weight: var(--font-weight-medium);
+
+  &:hover {
+    cursor: pointer;
+    color: #7c7c7c;
+  }
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
+
+.accept-user-agreement-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.accept-user-agreement-text {
+  & span {
+    z-index: 1;
+    cursor: pointer;
+    margin-left: .3rem;
+    transition: .2s color ease-in-out;
+    color: var(--accept-user-agreement-text);
+
+    &:hover {
+      color: var(--accept-user-agreement-text-hover);
+    }
+  }
+}
+
+/// Media ///
+.date-picker {
+  @media(max-width: 940px) {
+    width: 25rem;
+  }
+  @media(max-width: 650px) {
+    width: 20rem;
+  }
+  @media(max-width: 450px) {
+    width: 17rem;
+  }
+}
+
+.accept-user-agreement-container {
+  @media(max-width: 650px) {
+    flex-direction: column;
+    width: 250px;
+    & .accept-user-agreement-text {
+      margin-left: 0;
+      margin-top: .5rem;
+    }
+  }
+}
+
+/// Media ///

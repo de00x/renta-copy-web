@@ -1,0 +1,62 @@
+.header-right-block-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  width: 33.3%;
+}
+
+.header-btn-sign-in,
+.header-btn-sign-up {
+  color: var(--primary-color);
+  font-size: var(--font-size-x);
+  font-weight: var(--font-weight-medium);
+  transition: .2s color ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    color: var(--primary-color-hover);
+  }
+}
+
+.header-btn-sign-in {
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right: 1px solid var(--primary-color);
+}
+
+.header-user-account-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.71rem;
+  height: 4.35rem;
+  border-radius: var(--border-radius-b);
+  border: var(--white-border-1px-button);
+  transition: .3s background-color ease-in-out;
+  background-color: var(--background-primary-color);
+
+  &:hover {
+    cursor: pointer;
+    background: var(--background-header-role-and-nav-hover);
+  }
+
+  & svg {
+    width: 25px;
+    height: 25px;
+    stroke-width: 2px;
+    stroke: var(--secondary-color);
+  }
+}
+
+.header-user-account-btn-active {
+  background: var(--background-secondary-color);
+
+  &:hover {
+    background: var(--background-secondary-color);
+  }
+
+  & svg {
+    stroke: var(--primary-color);
+  }
+}

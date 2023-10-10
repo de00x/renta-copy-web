@@ -1,0 +1,28 @@
+.not-found-main-container {
+  display: flex;
+  margin: 5rem auto;
+  position: relative;
+  flex-direction: column;
+  max-width: fit-content;
+
+  & svg:nth-child(2) {
+    position: absolute;
+    top: 15rem;
+    right: 33rem;
+  }
+}
+
+.not-found-bgd-for-text {
+  position: relative;
+
+  & p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    white-space: nowrap;
+    color: var(--primary-color);
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-bold);
+    transform: translate(-50%, -50%);
+  }
+}

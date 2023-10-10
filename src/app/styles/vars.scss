@@ -1,0 +1,49 @@
+:root {
+  --font-size-m-light: .62rem; // 10px
+  --font-size-m: 1rem; // 14px
+  --font-size-x: 1.14rem; // 16px
+  --font-size-xl: 1.42rem; // 20px
+  --font-size-xxl: 1.7rem; // 24px
+  --font-size-xxxl: 2.28rem; // 32px
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 900;
+  --font-family-main: "Montserrat";
+  --margin-s: .7rem; // 10px
+  --margin-m: 1.64rem; // 23px
+  --margin-l: 2.85rem; // 40px
+  --margin-xl: 5.7rem; // 80px
+  --border-radius-s: .7rem; // 10px
+  --border-radius-b: 1.42rem; // 20px
+  --border-radius-m: 3.57rem; // 50px
+  --primary-color: #29648a;
+  --reviewer-name-color: #004069;
+  --primary-color-hover: rgb(109, 166, 202);
+  --secondary-color: #fff;
+  --third-color: #a8a8a8;
+  --fifth-color: #ada5e3;
+  --error-color: #eb5757;
+  --background-primary-color: #29648a;
+  --background-secondary-color: #fff;
+  --background-third-color: #a8a8a8;
+  --shadow-primary: 0 10px 20px rgb(0 0 0 / 10%);
+  --shadow-secondary: 0 10px 20px rgb(0 0 0 / 15%);
+  --font-family-secondary: "Nunito-Black";
+  --navbar-height: 145px;
+  --sidebar-width: 21.5rem;
+  --sidebar-width-collapsed: 7.43rem;
+  --modal-s-index: 10;
+  --bg-color: #e8e8ea;
+  --overlay-color: rgba(0 0 0 / 60%);
+  --unfocused-outline-color: #29648a;
+  --deals-button-width: 22.7rem;
+  --deals-button-height: 3.6rem;
+  --white-border-1px-button: 1px solid #FFF;
+  --placeholder-color: #959595;
+  --accept-user-agreement-text: #007aff;
+  --accept-user-agreement-text-hover: #0057b5;
+  --background-header-role-and-nav-hover: #1c5072a3;
+}

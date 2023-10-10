@@ -1,0 +1,12 @@
+.user-settings-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10rem;
+
+  & button {
+    width: 24.78rem;
+    height: 2.85rem;
+    border-radius: .7rem;
+  }
+}

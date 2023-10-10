@@ -1,0 +1,56 @@
+.user-account-settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 81.92rem;
+  height: 61.07rem;
+  padding: 2rem 0;
+  border-radius: 3.57rem;
+  background-color: var(--background-secondary-color);
+}
+
+.current-setting-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.change-form-styles {
+  & input {
+    width: 765px;
+    height: 40px;
+    box-shadow: var(--shadow-secondary);
+    border-radius: var(--border-radius-s);
+
+    &:not(:last-child) {
+      margin-bottom: 1.5rem;
+    }
+
+    &::placeholder {
+      font-size: var(--font-size-m);
+      color: var(--placeholder-color);
+      font-weight: var(--font-weight-medium);
+    }
+  }
+}
+
+.change-form-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem;
+
+  & button {
+    width: 347px;
+    height: 40px;
+    border-radius: 10px;
+
+    &:nth-child(2) {
+      margin-top: 1rem;
+    }
+  }
+}

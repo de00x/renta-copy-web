@@ -1,0 +1,23 @@
+.user-information-wrapper {
+  width: calc(100% - 20rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.user-info-container {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+
+  & p:nth-child(1) {
+    margin-right: .5rem;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semi-bold);
+  }
+
+  & p:nth-child(2) {
+    font-size: var(--font-size-x);
+    font-weight: var(--font-weight-medium);
+  }
+}

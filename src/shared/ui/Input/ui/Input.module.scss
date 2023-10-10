@@ -1,0 +1,20 @@
+.Input {
+  height: 40px;
+  background: var(--background-secondary-color);
+  border: none;
+  box-shadow: var(--shadow-secondary);
+  border-radius: var(--border-radius-s);
+  color: var(--placeholder-color);
+  font-size: var(--font-size-m);
+  padding-left: 20px;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-x);
+}
+
+.InputSms {
+  width: 94px;
+  height: 70px;
+}

@@ -1,0 +1,129 @@
+.modal-additional-styles {
+  border-radius: var(--border-radius-m);
+}
+
+.modal-send-document-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 33.2rem;
+  min-height: 46.85rem;
+  padding-top: 2rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.send-document-title {
+  color: var(--primary-color);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.send-document-input-container {
+  width: 26.35rem;
+  height: 2.85rem;
+  margin-top: 1rem !important;
+
+  & input {
+    border-radius: var(--border-radius-s);
+  }
+}
+
+.send-document-input-svg {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: .5rem;
+}
+
+.send-document-user-list-wrapper {
+  margin-top: 1.5rem;
+}
+
+.send-document-user {
+  display: flex;
+  width: 30.92rem;
+  height: 7.85rem;
+  padding: 0 .5rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-secondary);
+  border-radius: var(--border-radius-b);
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+
+.send-document-user-active {
+  background-color: var(--background-primary-color);
+
+  & .send-document-user-avatar svg {
+    & rect {
+      fill: var(--background-secondary-color);
+    }
+
+    & path {
+      stroke: var(--background-primary-color);
+    }
+  }
+
+  & .send-document-user-info p {
+    &:nth-child(1),
+    &:nth-child(2) {
+      color: var(--secondary-color);
+    }
+  }
+}
+
+.send-document-user-avatar {
+  max-width: 92px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: .75rem;
+}
+
+.send-document-user-info {
+  padding: .8rem 0;
+
+  & p {
+    color: var(--third-color);
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-medium);
+  }
+
+  & p:nth-child(1) {
+    font-size: var(--font-size-x);
+    color: var(--primary-color);
+  }
+
+  & p:nth-child(2) {
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+}
+
+.send-document-button-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  min-height: 7rem;
+
+  & button {
+    width: 13.57rem;
+    height: 2.85rem;
+    font-size: var(--font-size-x);
+    border-radius: var(--border-radius-s);
+    font-weight: var(--font-weight-medium);
+  }
+
+  & button:nth-child(1) {
+    margin-top: auto;
+  }
+
+  & button:nth-child(2) {
+    margin-top: 1rem;
+  }
+}

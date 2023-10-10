@@ -1,0 +1,27 @@
+.fill {
+  width: 15px;
+  height: 13px;
+  fill: var(--primary-color);
+  stroke: var(--primary-color);
+}
+
+.fillActive {
+  fill: var(--primary-color);
+  stroke: var(--primary-color);
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background: var(--primary-color);
+}
+
+.buttonLike {
+  background: var(--primary-color);
+  font-size: 5px;
+  height: 15px;
+}

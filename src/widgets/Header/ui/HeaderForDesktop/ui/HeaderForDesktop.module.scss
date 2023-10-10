@@ -1,0 +1,25 @@
+.header-container-for-desktop {
+  display: flex;
+  width: 100%;
+}
+
+.header-title-text {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xxxl);
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-extra-bold);
+}
+
+/// Media ///
+
+.header-container-for-desktop {
+  @media(max-width: 1100px) {
+    font-size: 1rem;
+  }
+  @media(max-width: 940px) {
+    display: none;
+  }
+}
